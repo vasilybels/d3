@@ -62,9 +62,9 @@ Over the course of four years, the sensors mostly picked up sounds of car engine
 
 ## Methodology
 
-This explorer uses D3's native functions, namely [`d3.rollup()`](https://d3js.org/d3-array/group#rollup) and [`d3.hierarchy()`](https://d3js.org/d3-hierarchy) to create a lightweight data analysis and visualization pipeline. The original SONYC data is loaded as a `.csv` file from the project folder.
+This explorer uses D3's native functions, namely [d3.rollup()](https://d3js.org/d3-array/group#rollup) and [d3.hierarchy()](https://d3js.org/d3-hierarchy) to create a lightweight data analysis and visualization pipeline. The original SONYC data is loaded as a `.csv` file from the project folder.
 
-The visualizations are produced by a render layer in the chart components: [`packChart.js`](https://github.com/vasilybels/vasilys-d3-projects/blob/main/src/components/packChart.js) creates the packed category frequency view, and [`stripChart.js`](https://github.com/vasilybels/vasilys-d3-projects/blob/main/src/components/stripChart.js) renders the 24-hour distribution.
+The visualizations are produced by a render layer in the chart components: [packChart.js](https://github.com/vasilybels/vasilys-d3-projects/blob/main/src/components/packChart.js) creates the packed category frequency view, and [stripChart.js](https://github.com/vasilybels/vasilys-d3-projects/blob/main/src/components/stripChart.js) renders the 24-hour distribution.
 
 ## References
 Read more about the motivation and creation of this dataset see the [DCASE 2020 Urban Sound Tagging with Spatiotemporal Context Task website](http://dcase.community/challenge2020/task-urban-sound-tagging-with-spatiotemporal-context).
