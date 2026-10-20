@@ -46,6 +46,7 @@ export default {
   }
 ,
   pages: [
-    {name: "SONYC visualizations", path: "/sonyc"}, 
+    {name: "SONYC visualizations", path: "/sonyc"},
+    {name: "citibike v1", path: "/citibike"} 
   ]
 };
